@@ -1,0 +1,125 @@
+/*========= General Styling =======*/
+/*========= Item =======*/
+
+
+/*=================================== General Styling ===================================*/
+
+:root{
+    --primary-light-100: #ffffff;
+    --primary-light-200: #F2F2F2;
+    --primary-dark-900: #000000;
+    --primary-dark-800: #121B26;
+    --primary-dark-700: #253140;
+    --primary-dark-600: #364659;
+    --primary-dark-500: #373737;
+    --primary-dark-400: #485B73;
+    --font-primary: 'Italiana', serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 24px;
+}
+
+body{
+    background-color: var(--primary-dark-500);
+}
+
+main{
+    min-width: 393px;
+    min-height: 643px;
+    background-color: var(--primary-dark-900);
+    padding: 10px 5px;
+}
+
+h1{
+    font-family: var(--font-primary);
+    font-size: 2.1rem;
+    letter-spacing: 8px;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+p{
+    font-family: var(--font-secondary);
+    font-family: .6rem;
+    letter-spacing: 20%;
+    margin: 10px 6px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*=================================== Item ===================================*/
+
+section{
+    background-color: var(--primary-light-100);
+    min-width: 356px;
+    max-width: 370px;
+    min-height: 618px;
+    outline: 1px solid black;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+img{
+    min-height: 238px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 100%;
+}
+
+h2{
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-weight: 400;
+    color: var(--primary-dark-600);
+    letter-spacing: 5px;
+}
+
+h3{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.button-secondary{
+    font-family: var(--font-secondary);
+    width: 173px;
+    height: 40px;
+    background-color: var(--primary-dark-900);
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--primary-light-100);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin: 5px 95px;
+}
+
+.button-secondary:hover{
+    color: var(--primary-light-100);
+    background-color: var(--primary-dark-700);
+    transition: 0.3s;
+}
+
+.button-secondary:active{
+    color: var(--primary-light-100);
+    background-color: var(--primary-dark-400);
+    transition: 0.1s;
+}

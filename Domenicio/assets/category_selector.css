@@ -1,0 +1,118 @@
+/*========= General Styling =======*/
+/*============== Item =============*/
+/*=========== Link States =========*/
+
+
+/*=================================== General Styling ===================================*/
+
+:root{
+    --primary-light-100: #ffffff;
+    --primary-light-200: #F2F2F2;
+    --primary-dark-900: #000000;
+    --primary-dark-800: #121B26;
+    --primary-dark-700: #253140;
+    --primary-dark-600: #364659;
+    --primary-dark-500: #373737;
+    --primary-dark-400: #485B73;
+    --font-primary: 'Italiana', serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 24px;
+}
+
+body{
+    background-color: var(--primary-dark-900);
+    max-width: 393px;
+    min-width: 350px;
+}
+
+main{
+    min-width: 393px;
+    height: 580px;
+    background-color: var(--primary-dark-900);
+    padding: 30px 5px;
+}
+
+h2{
+    font-family: var(--font-primary);
+    padding-top: 100px;
+    font-size: 3rem;
+    color: var(--primary-light-100);
+    letter-spacing: 5px;
+    min-width: 356px;
+    max-width: 370px;
+    min-height: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-light-100);
+}
+
+/*=================================== Item ===================================*/
+
+#woman{
+    background-color: var(--primary-light-100);
+    min-width: 356px;
+    max-width: 370px;
+    min-height: 300px;
+    margin: 0 auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: url(./images/women_section.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#man{
+    background-color: var(--primary-light-100);
+    min-width: 356px;
+    max-width: 370px;
+    min-height: 300px;
+    margin: 0 auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: url(./images/men_section.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+/*=================================== Link States ===================================*/
+
+#woman:hover{
+    filter: saturate(2.5);
+    transition: .3s;
+}
+
+#man:hover{
+    filter: saturate(2.5);
+    transition: .3s;
+}
+
+#woman:active{
+    filter: brightness(1);
+}
+
+#man:active{
+    filter: brightness(1);
+    transition: 1s;
+}
+
+h2:hover{
+    font-size: 3.2rem;
+    transition: .2s;
+}
+
+h2:active{
+    font-size: 3.3rem;
+}
